@@ -1,0 +1,14 @@
+/*footer*/
+footer.bottom{
+    width: 100%;
+    background-color: var(--color-2);
+    padding: 40px 0;
+    color: var(--color-3);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.7);
+    .container{
+        @include column-center;
+    }
+}

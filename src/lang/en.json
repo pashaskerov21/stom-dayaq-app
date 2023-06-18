@@ -1,0 +1,73 @@
+{
+    "home": "Home",
+    "about": "About",
+    "appeal": "Appeal",
+    "partners": "Partners",
+    "gallery": "Gallery",
+    "report": "Report",
+    "contact": "Contact",
+
+    "banner_title_1": "Our volunteers are professionals",
+    "banner_title_2": "Laughter suits you",
+    "banner_title_3": "We've made a healthy smile accessible",
+    "banner_text_1": "Professional dentists and dental technicians are our volunteers who provide free service in our project",
+    "banner_text_2": "Life is beautiful with your smile",
+    "banner_text_3": "Expensive dental services they thought were out of their reach are now available",
+
+    "about_title": "About the Dental Support Project",
+    "about_text_1": "Established in 2017 on the initiative of Dt. Rafael Pashayev, our Dental Support project is aimed at providing free dental services to low-income families in need of care. We are staffed by dental professionals and companies that provide their services free of charge to people in need, as well as our office team that provides administrative management. Our volunteers, who have the passion to help people in need through their profession and contribute to our project, become professionals, which ensures that this charitable activity is carried out with high quality.",
+    "about_text_2": "The goal of the Dental Support project is to make expensive dental services available to low-income families and give them a healthy smile. Improving the health of needy people, eliminating speech defects, giving them an aesthetic smile, etc. The implementation of such services is the core of our goal. In addition, we continue to provide dental assistance to our veterans with facial injuries within the framework of cooperation with the LIFE FUND.",
+    "our_goal": "Our goal",
+
+    "left_form_title": "Registration of doctors and technicians",
+    "right_form_title": "Patient Appeal",
+    "medical_area_title": "In what area can you help?",
+    "city_select_title_1": "Select the region in which you operate",
+    "city_select_title_2": "Select the region where you live",
+
+    "surgery": "Surgery",
+    "implant": "Implant",
+    "therapy": "Therapy",
+    "children_stomatology":"Children's stomatology",
+    "orthodontics":"Orthodontics",
+    "periodontology":"Periodontology",
+    "orthopedics":"Orthopedics",
+    "dental_technician":"Dental technician",
+
+    "firstname_lastname_fathername": "First Name, Surname and Paternal Name",
+
+    "adress_placeholder_1": "Address of the place of work",
+    "adress_placeholder_2": "Address",
+
+    "foto_label_1": "Upload your photo portrait image",
+    "foto_card_label_front": "Upload a photo of the front of the patient's ID card",
+    "foto_card_label_back": "Upload a photo of the back of the patient's ID card",
+    "download_image": "Upload the image",
+    "download_document": "Upload the document",
+    "download": "Upload",
+    "send": "send",
+
+    "doctors_technicians": "our doctors and technicians",
+    "person": "person",
+    "dentist": "dentist",
+
+    "all": "all",
+    "projects": "projects",
+    "actions": "actions",
+    "emotions": "emotions",
+
+    "report_subtext": "The estimated amount of the provided services is AZN 538,506.00",
+    "patients": "patients",
+    "dental_treatment": "dental treatment",
+    "tooth_restoration": "tooth restoration",
+    "x-ray_examinations": "x-ray examinations",
+    "total_dentures": "total dentures",
+    "ceramic_caps": "ceramic_caps",
+    "surgical_procedures": "surgical procedures",
+    "orthodontic_devices": "orthodontic devices",
+
+    "dental_support_project": "Dental Support Project",
+    "all_rights_reserved": "All rights reserved"
+
+
+}

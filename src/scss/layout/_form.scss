@@ -1,0 +1,65 @@
+/*form section scss/css start*/
+.form-section{
+    background-color: var(--color-2);
+    background: linear-gradient(30deg, var(--color-2) 50%, var(--color-1) 50% 100%);
+    padding: 30px 0;
+    .row{
+        width: 100%;
+        .col-12{
+            margin-bottom: 25px;
+        }
+    }
+    .general-form{
+        width: 100%;
+        @include column-center;
+        .form-title{
+            color: var(--color-3);
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .form-wrapper{
+            width: 100%;
+            @include column-center;
+            justify-content: flex-start;
+            padding: 30px 15px;
+            background-color: var(--color-3);
+            .f_component{
+                width: 100%;
+                margin-bottom: 25px;
+                @include column-start;
+                .f_label{
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+                
+            }
+        }
+    }
+}
+/*form section media queries*/
+@media only screen and (min-width: 992px){
+    .form-section{
+        background: linear-gradient(to right, var(--color-2) 50%, var(--color-1) 50% 100%);
+        .general-form{
+            align-items: flex-start;
+            .form-title{
+                text-align: start;
+                font-size: 24px;
+            }
+            .form-wrapper{
+                min-height: 915px;
+                padding: 40px 30px;
+                .f_component{
+                    .f_label{
+                        text-align: start;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*form section scss/css start*/

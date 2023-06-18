@@ -1,0 +1,117 @@
+.worker-swiper{
+    padding: 20px 0;
+    .swiper-button-prev,
+    .swiper-button-next{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        @include center;
+        background-color: var(--color-1);
+        i{
+            font-size: 20px;
+        }
+        &:hover{
+            background-color: var(--color-2);
+            i{
+                color: var(--color-1);
+            }
+        }
+    }
+}
+.worker-amount{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 22px;
+    color: var(--black-5);
+    font-weight: 500;
+    .number{
+        margin-right: 7px;
+    }
+}
+.worker-card{
+    position: relative;
+    width: 100%;
+    max-width: 260px;
+    height: 250px;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    cursor: pointer;
+    .card-face{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        @include center;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+        transform: perspective(500px) rotateY(0deg);
+        border-radius: 10px;
+        &.front{
+            border-radius: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+        }
+        &.back{
+            border-radius: 10px;
+            background-color: var(--color-1);
+            color: #fff;
+            transform: perspective(500px) rotateY(-180deg);
+            @include column-center;
+            padding: 10px 25px;
+        }
+    }
+    span{
+        transform: translateZ(50px);
+        text-align: center;
+        color: var(--color-3);
+        text-transform: capitalize;
+        &.name{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            
+        }
+    }
+    &:hover{
+        .card-face.front{
+            transform: perspective(500px) rotateY(-180deg);
+        }
+        .card-face.back{
+            transform: perspective(500px) rotateY(-360deg);
+        }
+    }
+}
+
+
+@media only screen and (min-width: 576px){
+    .worker-card{
+        max-width: 220px;
+        height: 220px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .worker-card{
+        max-width: 200px;
+        height: 200px;
+        span{
+            &.name{
+                font-size: 16px;
+            }
+            &.position{
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1200px){
+    .worker-card{
+        max-width: 180px;
+        height: 180px;
+    }
+}

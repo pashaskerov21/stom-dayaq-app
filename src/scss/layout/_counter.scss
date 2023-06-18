@@ -1,0 +1,36 @@
+/*counter section scss/css start*/
+.counter-section{
+    .calculation-value{
+        margin-bottom: 20px;
+        text-align: center;
+        color: var(--black-6);
+    }
+    .row{
+        width: 100%;
+        margin-top: 20px;
+        .col-12{
+            margin-bottom: 40px;
+        }
+    }
+}
+.counter-item{
+    width: 100%;
+    @include column-center;
+    img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .counter-span{
+        font-size: 40px;
+        color: var(--color-1);
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .label{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+/*counter section scss/css end*/

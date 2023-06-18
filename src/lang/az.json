@@ -1,0 +1,75 @@
+{
+    "home": "Əsas Səhifə",
+    "about": "Haqqımızda",
+    "appeal": "Müraciət",
+    "partners": "Tərəfdaşlar",
+    "gallery": "Qalereya",
+    "report": "Hesabat",
+    "contact": "Əlaqə",
+
+    "banner_title_1": "Könüllülərimiz peşəkarlardır",
+    "banner_title_2": "Gülmək sizə yaraşır",
+    "banner_title_3": "Sağlam təbəssümü əlçatan etdik",
+    "banner_text_1": "Peşəkar stomatoloq və diş texnikləri layihəmizdə təmənnasız xidmət göstərən könüllülərimizdir",
+    "banner_text_2": "Həyat sizin gülüşünüzlə gözəldir",
+    "banner_text_3": "Onlar üçün əlçatmaz hesab etdikləri bahalı stomatoloji xidmətlər artıq əlçatandır",
+
+    "about_title": "Stomatoloji Dayaq layihəsi haqqında",
+    "about_text_1": "2017-ci ildən Dt.Rəfael Paşayevin təşəbbüsü ilə qurulmuş Stomatoloji Dayaq layihəmiz qayğıya ehtiyacı olan aztəminatlı ailələrə təmənnasız stomatoloji xidmətlər göstərməyə yönəlmişdir. Ehtiyaclı insanlara öz xidmətlərini təmənnasız təqdim edən stomatoloji peşə sahibləri və şirkətlər, eləcə də inzibati idarəetməni təmin edən ofis komandamız heyyətimizi təşkil edir. Ehtiyaclı insanlara öz peşələri vasitəsilə yardım göstərmək və layihəmizə töhfə vermək şövqü olan könüllülərimizin peşəkarlar olmağı bu xeyriyyə fəaliyyətinin yüksək keyfiyyətlə həyata keçirilməsini təmin edir.",
+    "about_text_2": "Stomatoloji Dayaq layihəsinin məqsədi bahalı stomatoloji xidmətləri aztəminatlı ailələrə əlçatan etməklə onlara sağlam təbəssüm bəxş etməkdir.Ehtiyaclı insanların səhhətinin yaxşılaşdırılması, nitq qüsurlarının aradan qaldırılması, onlara estetik təbəssüm bəxş edilməsi və s. kimi xidmətlərin həyata keçirilməsi məqsədimizin özəyini təşkil edir. O cümlədən üzündən yara almış qazilərimizə YAŞAT FONDU ilə əməkdaşlıq çərçivəsində stomatoloji yardımlarımız davam edir.",
+    "our_goal": "Məqsədimiz",
+
+    "left_form_title": "Həkim və texniklərin qeydiyyatı",
+    "right_form_title": "Pasiyentlərin Müraciəti",
+    "medical_area_title": "Hansı  sahədə yardım edə bilərsiniz?",
+    "city_select_title_1": "Fəaliyyət göstərdiyiniz regionu seçin",
+    "city_select_title_2": "Yaşadığınız bölgəni seçin seçin",
+
+    "surgery": "Cərrahiyə",
+    "implant": "İmplant",
+    "therapy": "Terapiya",
+    "children_stomatology":"Uşaq stomotologiyası",
+    "orthodontics":"Ortodontiya",
+    "periodontology":"Periodontologiya",
+    "orthopedics":"Ortopediya",
+    "dental_technician":"Diş texniki",
+
+    "firstname_lastname_fathername": "Ad, Soyad və Ata adı",
+
+    "adress_placeholder_1": "İş yerinin ünvanı",
+    "adress_placeholder_2": "Ünvan",
+
+    "foto_label_1": "Foto portret şəklinizi yükləyin",
+    "foto_card_label_front": "Pasiyentin şəxsiyyət vəsiqəsinin ön tərəfininin şəklini yüklə",
+    "foto_card_label_back": "Pasiyentin şəxsiyyət vəsiqəsinin arxa tərəfininin şəklini yüklə",
+    "download_image": "Şəkili yükləyin",
+    "download_document": "Sənəd yüklə",
+    "download": "yüklə",
+    "send": "göndər",
+    
+
+    "doctors_technicians": "həkim və texniklərimiz",
+    "person": "nəfər",
+    "dentist": "stomatoloq",
+
+    "all": "Hamısı",
+    "projects": "Layihələr",
+    "actions": "Tədbirlər",
+    "emotions": "Emosiyalar",
+
+    "report_subtext": "Göstərilən xidmətlərin şərti hesablanmış məbləği 538 506.00 AZN",
+    "patients": "pasiyentlər",
+    "dental_treatment": "diş müalicəsi",
+    "tooth_restoration": "diş bərpası",
+    "x-ray_examinations": "rentgen müayinələri",
+    "total_dentures": "total protezlər",
+    "ceramic_caps": "keramika qapaqlar",
+    "surgical_procedures": "cərrahi prosedurlar",
+    "orthodontic_devices": "ortodontik aparatlar",
+    
+    "dental_support_project": "Stomatoloji Dayaq Layihəsi",
+    "all_rights_reserved": "Bütün hüquqlar qorunur"
+
+    
+    
+}
