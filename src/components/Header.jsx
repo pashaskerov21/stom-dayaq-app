@@ -28,21 +28,22 @@ function Header() {
         }, 3000)
     }
 
-    const language = useSelector(state => state.language.language)
-    const text = require(`../lang/${language}.json`)
+    const language = useSelector(state => state.language.language);
+    const text = require(`../lang/${language}.json`);
+    
     return (
-        <header className={fixed ? 'fixed-top' : null}>
+        <header className={fixed ? 'fixed-top' : null} id='header'>
             <nav className='general-nav'>
                 <div className="container">
                     <div className="inner">
-                        <div className="logo">
+                        <Link offset={-100} to='home' className="logo">
                             <img src={logo} alt="logo" />
-                        </div>
+                        </Link>
                         <div className={menu ? 'menu active' : 'menu'}>
                             <div className="nav-links">
                                 {
                                     navLinks.map((link, index) => (
-                                        <Link key={index} onClick={() =>handleNavLinkClick(link) } className='link' offset={-110} to={link}>{text[`${link}`]}</Link>
+                                        <Link key={index} onClick={() =>handleNavLinkClick(link) } className='link' activeClass='active' spy={true} offset={-110} to={link}>{text[`${link}`]}</Link>
                                     ))
                                 }
                             </div>

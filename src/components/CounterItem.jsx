@@ -36,7 +36,7 @@ function CounterItem({ item, text }) {
 
 
     window.addEventListener('scroll', function () {
-        if (this.scrollY > (counterItem.current.offsetTop - 500)) {
+        if (this.scrollY > (counterItem.current?.offsetTop - 500)) {
             setCounterStatus(true)
         }
     })

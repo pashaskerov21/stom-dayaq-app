@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useSelector } from 'react-redux'
 import Slider from 'react-slick'
-import { partners } from '../data/PartnerData'
+import { MainContext } from '../context/MainContextProvider'
 
 
 function PartnerSection() {
@@ -53,6 +53,7 @@ function PartnerSection() {
             }
         ]
     };
+    const {partners} = useContext(MainContext);
     return (
         <section className="partners-section" id='partners' data-aos="zoom-in">
             <div className="container">

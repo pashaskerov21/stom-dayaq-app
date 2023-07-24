@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useSelector } from 'react-redux'
 
 import Slider from 'react-slick'
-import { workerArr } from '../data/WorkerData'
+import { MainContext } from '../context/MainContextProvider'
 
 function WorkerSection() {
     const language = useSelector(state => state.language.language)
@@ -62,6 +62,7 @@ function WorkerSection() {
         ]
     };
 
+    const {workerArr} = useContext(MainContext);
     
     return (
         <section className="workers-section" data-aos="zoom-in"> 

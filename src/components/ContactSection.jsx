@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../image/logo/logo.png'
 import nettyLogo from '../image/footer/netty2022.jpg'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-scroll'
 
 function ContactSection() {
     const language = useSelector(state => state.language.language)
@@ -14,9 +15,9 @@ function ContactSection() {
                         <h2 className="section-title white">{text['contact']}</h2>
                     </div>
                     <div className="col-12 col-lg-3 left-col ">
-                        <div className="logo">
+                        <Link offset={-100} to='home' className="logo">
                             <img src={logo} alt="logo" />
-                        </div>
+                        </Link>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 contact-col" data-aos="zoom-in-down">
                         <div className="contact-wrapper">

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { galleryCategories, galleryImages } from '../data/GalleryData'
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import { MainContext } from '../context/MainContextProvider';
 Fancybox.bind("[data-fancybox]", {
     // Your custom options
   });
@@ -10,6 +10,8 @@ Fancybox.bind("[data-fancybox]", {
 function GallerySection() {
     const language = useSelector(state => state.language.language)
     const text = require(`../lang/${language}.json`)
+
+    const {galleryCategories, galleryImages,} = useContext(MainContext);
 
     const [images, setImages] = useState([])
     const [categoryName, setCategoryName] = useState('all')
@@ -21,7 +23,7 @@ function GallerySection() {
     useEffect(() => {
         let filteredImages = []
         if (categoryName === 'all') {
-            filteredImages = galleryImages
+            filteredImages = galleryImages.slice();
         } else if (categoryName === 'projects') {
             filteredImages = galleryImages.filter(image => image.category === 'projects')
         } else if (categoryName === 'actions') {
@@ -32,7 +34,7 @@ function GallerySection() {
             filteredImages = galleryImages
         }
         setImages(filteredImages)
-    }, [categoryName])
+    }, [categoryName, galleryImages])
 
     return (
         <section className="gallery-section" id='gallery'>

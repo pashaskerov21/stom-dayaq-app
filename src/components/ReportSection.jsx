@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useSelector } from 'react-redux'
-import { reportArr } from '../data/ReportData'
 import CounterItem from './CounterItem'
+import { MainContext } from '../context/MainContextProvider'
 
 function ReportSection() {
     const language = useSelector(state => state.language.language)
     const text = require(`../lang/${language}.json`)
+    const {reportArr} = useContext(MainContext);
     return (
         <section className="counter-section" id='report' >
             <div className="container">

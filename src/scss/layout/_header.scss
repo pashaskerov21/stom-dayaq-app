@@ -71,8 +71,7 @@ header {
             }
 
             &.active {
-                background-color: var(--color-1);
-                color: var(--color-2);
+                color: var(--color-1) !important;
             }
         }
     }
